@@ -1,0 +1,49 @@
+body {
+  background: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 30px;
+}
+
+form.passwordForm {
+  width: 25%;
+  margin: 15px auto 15px auto;
+}
+
+form.passwordForm legend {
+  font-weight: bold;
+}
+
+form.passwordForm fieldset label {
+  display: block;
+  float: left;
+  width: 145px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+form.passwordForm fieldset br {
+  clear: both;
+}
+
+form.passwordForm fieldset input.floatRight {
+  width: 80px;
+  float: right;
+  margin: 10px;
+}
+
+form.passwordForm fieldset div.passwordMsg {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+form.passwordForm fieldset div.error_container {
+  margin-left: 80px;
+  color: red;
+}
+
+form.passwordForm fieldset div.passwordMessage {
+  text-align: center;
+}
